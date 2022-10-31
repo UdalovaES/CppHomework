@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.23)
+project(project1)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(project1 main.cpp
+        checking_input.h
+        checking_input.cpp
+        Counter.h
+        Counter.cpp
+        finding_errors.cpp
+        finding_errors.h)
